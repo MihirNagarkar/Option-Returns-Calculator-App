@@ -1,0 +1,129 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#0d2a50">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn More, Earn More!"
+        android:textColor="#0CF690"
+        android:fontFamily="monospace"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        />
+
+
+    <!-- Section: What are Derivatives? -->
+    <TextView
+        android:id="@+id/tv_derivatives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are Derivatives?"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorAccent"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/tv_derivatives_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Derivatives are financial contracts whose value is derived from an underlying asset, such as stocks, bonds, commodities, or currencies."
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+    <!-- Section: What are Futures? -->
+    <TextView
+        android:id="@+id/tv_futures"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are Futures?"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorAccent"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_futures_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A futures contract is an agreement to buy or sell an asset at a predetermined price at a specified time in the future."
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+    <!-- Section: What are Options? -->
+    <TextView
+        android:id="@+id/tv_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="What are Options?"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorAccent"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_options_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Options are contracts that give the buyer the right, but not the obligation, to buy (Call) or sell (Put) an asset at a specific price on or before a certain date."
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+    <!-- Section: Call and Put Options -->
+    <TextView
+        android:id="@+id/tv_call_put"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call and Put Options"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorAccent"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_call_put_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Options give the buyer the right to buy the asset, while Put Options give the right to sell the asset."
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2a50"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User-Login"
+        android:textColor="#2CF69E"
+        android:fontFamily="monospace"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="#A8A5AB"
+        android:inputType="textPersonName"
+        android:layout_marginTop="120dp"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/etUsername"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#A8A5AB"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#A8A5AB"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        style="@style/ButtonStyle"
+        android:layout_below="@id/etPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_alignParentStart="true"
+        style="@style/ButtonStyle"
+        android:layout_alignBaseline="@id/btnLogin"
+        android:backgroundTint="@color/black"/>
+
+</RelativeLayout>
